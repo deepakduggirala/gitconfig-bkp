@@ -1,0 +1,13 @@
+[user]
+	name = Deepak Duggirala
+	email = deepak.duggirala@target.com
+[core]
+	editor = vim
+[mergetool]
+	prompt = false
+[alias]
+	s = status
+	lg = log --color --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
+	pr = pull
+[merge]
+	conflictstyle = diff3
