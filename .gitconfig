@@ -11,3 +11,7 @@
 	pr = pull
 [merge]
 	conflictstyle = diff3
+[diff]
+    tool = default-difftool
+[difftool "default-difftool"]
+    cmd = code --wait --diff $LOCAL $REMOTE
